@@ -20,7 +20,7 @@ The goal of this project is to classify text as either **hate speech** or **non-
 - **Accuracy**: Achieved **83% accuracy** with RandomForestClassifier.
 - **Efficiency**: Leveraged **Polars** for data manipulation, resulting in approximately **80% faster execution** compared to Pandas, especially when working with datasets of this scale.
 - **Word2Vec**: Utilized **Word2Vec** for generating word embeddings, which allows the model to capture semantic meaning from text.
-- **Model Choice**: Chose **RandomForestClassifier** over **Logistic Regression** and **SVM** for better performance in capturing non-linear relationships in the data.
+- **Model Choice**: Chose **RandomForestClassifier** for better performance in capturing non-linear relationships in the data.
 - **Batch Processing**: Performed **batch processing** to preprocess the data, reducing the overhead on the CPU and improving memory efficiency.
 
 ---
@@ -46,7 +46,7 @@ The 'Code Files' directory consists of the following files:
 ## Technologies & Libraries Used
 
 - **Python**: The primary language for the implementation.
-- **Polars**: Used for data manipulation due to its performance advantages. Polars is **80% faster** than Pandas in handling large datasets. It utilizes an **Arrow-based memory model**, **lazy execution**, and **built-in multi-threading** to achieve these speed improvements. The efficiency of Polars was particularly evident when working with datasets containing over 700k rows.
+- **Polars**: Used for data manipulation due to its performance advantages. Polars is **3x-10x faster** than Pandas in handling large datasets. It utilizes an **Arrow-based memory model**, **lazy execution**, and **built-in multi-threading** to achieve these speed improvements. The efficiency of Polars was particularly evident when working with datasets containing over 700k rows.
 - **NLTK**: Used for text preprocessing, including tokenization, stopword removal, and lemmatization.
 - **Gensim**: Used for training the **Word2Vec** model, converting words into vectors.
 - **Scikit-learn**: Contains the implementation of the **RandomForestClassifier** and **GridSearchCV** for hyperparameter tuning.
