@@ -86,6 +86,9 @@ By utilizing **Polars** for data manipulation, the project benefits from the **A
 ### Prerequisites
 
 To use this repository:
-    git clone https://github.com/SiddharthCh7/Hate-Speech-Classification-using-Polars
-    cd Hate-Speech-Classification-using-Polars
-    pip install -r requirements.txt
+    
+- `git clone https://github.com/SiddharthCh7/Hate-Speech-Classification-using-Polars`
+    
+- `cd Hate-Speech-Classification-using-Polars`
+    
+- `pip install -r requirements.txt`
