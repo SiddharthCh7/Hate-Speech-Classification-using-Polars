@@ -1,0 +1,6 @@
+polars
+nltk
+gensim
+scikit-learn
+numpy
+
