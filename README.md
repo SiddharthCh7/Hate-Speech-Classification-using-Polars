@@ -82,10 +82,6 @@ By utilizing **Polars** for data manipulation, the project benefits from the **A
 ---
 
 ## Getting Started
-
-### Prerequisites
-
-To use this repository:
     
 - `git clone https://github.com/SiddharthCh7/Hate-Speech-Classification-using-Polars`
     
